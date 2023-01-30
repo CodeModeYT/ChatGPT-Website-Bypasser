@@ -19,7 +19,7 @@ print("github.com/codemodeyt/")
 usrinput = input("Write your question and confirm with enter: ")
 
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "API-key-here"
 
 # Set up the model and prompt
 model_engine = "text-davinci-003"
