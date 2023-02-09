@@ -12,28 +12,34 @@ print("""
  \______)_| |_\_____|  \__)   \_____/|_|       |_|     (______/    \_____/|_____)____/(___/|_|  \__)_____)  |______/ \__  |  __/\_____(___/(___/|_____)_|    
                                                                                                                     (____/|_|                                
 """)
-time.sleep(2)
 print("github.com/codemodeyt/")
 
-# Get the user input
-usrinput = input("Write your question and confirm with enter: ")
+def start():    
+    # Get the user input
+    usrinput = input("Write your question and confirm with enter: ")
 
-# Set up the OpenAI API client
-openai.api_key = "API-key-here"
+    # Set up the OpenAI API client
+    openai.api_key = "your-API-key-here"
 
-# Set up the model and prompt
-model_engine = "text-davinci-003"
-prompt = usrinput
+    # Set up the model and prompt
+    model_engine = "text-davinci-003"
+    prompt = usrinput
 
-# Generate a response
-completion = openai.Completion.create(
-    engine=model_engine,
-    prompt=prompt,
-    max_tokens=1024,
-    n=1,
-    stop=None,
-    temperature=0.5,
-)
+    # Generate a response
+    completion = openai.Completion.create(
+        engine=model_engine,
+        prompt=prompt,
+        max_tokens=1024,
+        n=1,
+        stop=None,
+        temperature=0.5,
+    )
 
-response = completion.choices[0].text
-print(response)
+    response = completion.choices[0].text
+    print("Response from API:")
+    print(response)
+    print("---------")
+
+#Run the program infinite times
+while True:
+    start()
