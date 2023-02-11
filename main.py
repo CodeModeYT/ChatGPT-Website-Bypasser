@@ -1,5 +1,6 @@
 import openai
 import time
+import os
 
 # Remove this if you want to
 print("""
@@ -13,19 +14,20 @@ print("""
                                                                                                                     (____/|_|                                
 """)
 print("github.com/codemodeyt/")
-
-def start():    
-    # Get the user input
+print("ChatGPT website bypasser - please read the GitHub readme before using:")
+print("github.com/codemodeyt/chatgpt-website-bypassser")
+print("---------")
+def start():    # Get the user input
     usrinput = input("Write your question and confirm with enter: ")
 
     # Set up the OpenAI API client
-    openai.api_key = "your-API-key-here"
+    openai.api_key = "API-key-here"
 
-    # Set up the model and prompt
+    # Setting up the model and prompt
     model_engine = "text-davinci-003"
     prompt = usrinput
 
-    # Generate a response
+    # Generating a response
     completion = openai.Completion.create(
         engine=model_engine,
         prompt=prompt,
@@ -40,6 +42,5 @@ def start():
     print(response)
     print("---------")
 
-#Run the program infinite times
 while True:
     start()
