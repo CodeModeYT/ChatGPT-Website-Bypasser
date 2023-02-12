@@ -2,10 +2,25 @@
 Small side project used to bypass the website of GPT-3 by openAI to be able to use it even when the site is down
 ## How does it work?
 It fetches the text from the input, generates the response by using the API and prints it out.
-## Setup
-1. Run `pip install openai` to install the library 
-2. Modify main.py in line 24 by using your own API key [ (available on openAIs site) ](#how-to-create-an-api-key)
-3. Run main.py
+## Versions
+There are currently two versions of his project available. The [simple version](#simple-version) and the [advanced version](#advanced-version), offering more possibilities.
+
+Just click on the corresponding version to get to a tutorial explaining how to use the program and how to set it up.
+<details> 
+<!-- add open at the end of the tag to make it pre opened (future) -->
+ <summary><h3>Simple version</h3></summary>
+ For this version, we're only gonna use the main.py file.
+ 
+ #### Setup:
+ 1. Run ```pip install openai``` in your Terminal
+ 2. Replace the API key in line 24 with [your own API key](#how-to-create-an-api-key)
+ 3. Run main.py
+</details>
+<details>
+ <summary><h3>Advanced version</h3></summary>
+ Coming soon, currently in development!
+</details>
+
 ## Improvements
 If you have any ideas for improvements or other stuff, feel free to create a pull request.
 Remember, this is nothing big, just a very small side project that I quickly coded to use ChatGPT whenever I need it.
