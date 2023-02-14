@@ -9,7 +9,7 @@ Just click on the corresponding version to get to a tutorial explaining how to u
 <details> 
 <!-- add open at the end of the tag to make it pre opened (future) -->
  <summary><h3>Simple version</h3></summary>
- For this version, we're only gonna use the main.py file.
+ For this version, we're only gonna use the main.py file in the 'Simple'-folder.
  
  #### Setup:
  1. Run ```pip install openai``` in your Terminal
@@ -18,7 +18,8 @@ Just click on the corresponding version to get to a tutorial explaining how to u
 </details>
 <details>
  <summary><h3>Advanced version</h3></summary>
- Coming soon, currently in development!
+ IMPORTANT: the current version published is only the first version and not finished or clean so far.
+ This is why no instructions guide is included so far.
 </details>
 
 ## Improvements
