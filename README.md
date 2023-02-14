@@ -19,7 +19,7 @@ Just click on the corresponding version to get to a tutorial explaining how to u
 <details>
  <summary><h3>Advanced version</h3></summary>
  IMPORTANT: the current version published is only the first version and not finished or clean so far.
- This is why no instructions guide is included so far.
+ This is why no instructions guide is included yet.
 </details>
 
 ## Improvements
