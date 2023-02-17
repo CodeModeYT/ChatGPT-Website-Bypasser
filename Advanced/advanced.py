@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Remove this if you want to
 print(Fore.BLUE + "ChatGPT website bypasser - advanced version!")
-print(Fore.RED + 'IMPORTANT: Read through the readme file on GitHub first and only run this file AFTER you ran setup.py!')
+print(Fore.RED + 'IMPORTANT: Read through the readme file on GitHub first, otherwise this file will NOT work')
 print(Fore.WHITE + "github.com/CodeModeYT/ChatGPT-Website-Bypasser")
 
 def save2txt(response):

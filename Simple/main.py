@@ -14,8 +14,8 @@ print("""
                                                                                                                     (____/|_|                                
 """)
 print("github.com/codemodeyt/")
-print("ChatGPT website bypasser - please read the GitHub readme before using:")
-print("github.com/codemodeyt/chatgpt-website-bypassser")
+print('IMPORTANT: Read through the readme file on GitHub first, otherwise this file will NOT work')
+print("github.com/CodeModeYT/ChatGPT-Website-Bypasser")
 print("---------")
 def start():    # Get the user input
     usrinput = input("Write your question and confirm with enter: ")
