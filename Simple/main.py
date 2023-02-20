@@ -36,8 +36,8 @@ def start():    # Get the user input
         stop=None,
         temperature=0.5,
     )
-
     response = completion.choices[0].text
+    # Print the response
     print("Response from API:")
     print(response)
     print("---------")
