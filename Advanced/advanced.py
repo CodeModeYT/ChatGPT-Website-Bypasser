@@ -12,7 +12,7 @@ def save2txt(response):
     now = datetime.now()
     currenttime = now.strftime("%d.%m.%Y %H.%M.%S")
     filename = f"ChatGPT at {currenttime}"
-    results_path = f'D:\Path-to\project\ChatGPT-Website-Bypasser\Advanced\Results\{filename}.txt'
+    results_path = f'D:\Path-to\project\ChatGPT-Website-Bypasser\Advanced\Results\{filename}.txt' #(Replace with your own Path)
     directory = os.path.dirname(results_path)
     with open(results_path, 'w') as f:
         f.write(f"Result from the API: {response}")
