@@ -1,5 +1,5 @@
 # ChatGPT-Website-Bypasser
-Small side project used to bypass the website of GPT-3 by openAI to be able to use it even when the site is down
+Small side project used to bypass the website of GPT-3 by openAI to be able to use it even when the site is down. 
 ## How does it work?
 It fetches the text from the input, generates the response by using the API and prints it out.
 ## Versions
@@ -18,13 +18,18 @@ Just click on the corresponding version to get to a tutorial explaining how to u
 </details>
 <details>
  <summary><h3>Advanced version</h3></summary>
- IMPORTANT: the current version published is only the first version and not finished or clean so far.
- This is why no instructions guide is included yet.
+ 1. Clone the repository
+ 3. cd to folder you cloned the repo into
+ 2. Run pip install /Advanced/requirents.txt (soon)
+ 4. Correct all the paths (marked in the file with comments) to the path you cloned the repo into
+ 5. Replace the API key in line with [your own API key](#how-to-create-an-api-key)
+ 6. Run /Advanced/advanced.py
 </details>
 
-## Improvements
+## Improvements and Information
 If you have any ideas for improvements or other stuff, feel free to create a pull request.
 Remember, this is nothing big, just a very small side project that I quickly coded to use ChatGPT whenever I need it.
+As this repo is growing, I'd be very happy if you starred it. Like that, we can reach even more people and help them. 
 ### Please notice:
 This project is NOT using the up-to-date version of ChatGPT we can find on the website, as the API wasn't released for it yet (this is soon to come). Instead it uses the API of an 'older version' of ChatGPT.
 #
