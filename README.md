@@ -15,20 +15,21 @@ Just click on the corresponding version to get to a tutorial explaining how to u
  1. Clone the repository
  2. Run ```pip install openai``` in your Terminal
  3. Replace the API key in line 24 with [your own API key](#how-to-create-an-api-key)
- 4. Run main.py
+ 4. Run ```/Simple/main.py```
 </details>
 <details>
  <summary><h3>Advanced version</h3></summary>
  In the advanced version, we are using the files inside of the 'Advanced' folder. 
-
+ This version offers colors in the console and an option to save the results in a text file
 
  #### Setup:
  1. Clone the repository
- 3. cd to folder you cloned the repo into
+ 3. ```cd``` to folder you cloned the repo into
  2. Run ```pip install /Advanced/requirements.txt```
  4. Correct all the paths (marked in the file with comments) to the path you cloned the repo into (so far it is only one path to correct)
  5. Replace the API key in line 42 with [your own API key](#how-to-create-an-api-key)
- 6. Run /Advanced/advanced.py
+ 6. Run ```/Advanced/advanced.py```
+ Information: the saved results will land in ```/Advanced/Results/```
 </details>
 
 ## Improvements and Information
