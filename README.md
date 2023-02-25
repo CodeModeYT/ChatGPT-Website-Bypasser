@@ -36,7 +36,7 @@ If you have any ideas for improvements or other stuff, feel free to create a pul
 Remember, this is nothing big, just a very small side project that I quickly coded to use ChatGPT whenever I need it.
 
 
-As this repo is growing, I'd be very happy if you starred it. Like that, we can reach even more people and help them. 
+As this repo is growing, I'd be very happy if you starred it. Like that, we can reach even more people and inspire them. 
 ### Please notice:
 This project is NOT using the up-to-date version of ChatGPT we can find on the website, as the API wasn't released for it yet (this is soon to come). Instead it uses the API of an 'older version' of ChatGPT.
 #
