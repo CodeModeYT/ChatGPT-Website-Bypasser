@@ -1,4 +1,4 @@
-# ChatGPT-Website-Bypasser <img src="openai.png" align="right" height="100px"/>
+# ChatGPT-Website-Bypasser <img src="readme/openai.png" align="right" height="100px"/>
 
 Small side project used to bypass the website of GPT-3 by openAI to be able to use it even when the site is down. 
 ## How does it work?
