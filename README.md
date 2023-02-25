@@ -25,7 +25,7 @@ Just click on the corresponding version to get to a tutorial explaining how to u
  #### Setup:
  1. Clone the repository
  3. cd to folder you cloned the repo into
- 2. Run ```pip install /Advanced/requirents.txt``` (soon)
+ 2. Run ```pip install /Advanced/requirements.txt```
  4. Correct all the paths (marked in the file with comments) to the path you cloned the repo into (so far it is only one path to correct)
  5. Replace the API key in line 42 with [your own API key](#how-to-create-an-api-key)
  6. Run /Advanced/advanced.py
