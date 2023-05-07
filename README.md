@@ -1,6 +1,6 @@
 # ChatGPT-Website-Bypasser <img src="readme/openai.png" align="right" height="100px"/>
 
-Small side project used to bypass the website of GPT-3 by openAI to be able to use it even when the site is down. 
+Small side project used to bypass the website of GPT-3 by openAI to be able to use it even when the site iself is down. 
 ## How does it work?
 It fetches the text from the input, generates the response by using the API and prints it out.
 ## Versions
