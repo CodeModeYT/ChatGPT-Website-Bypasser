@@ -1,5 +1,10 @@
 # ChatGPT-Website-Bypasser <img src="readme/openai.png" align="right" height="100px"/>
 IMPORTANT: this project kind of got useless with OpenAI massively increasing the availability of ChatGPT. However, I'd still be happy if you could support this project by giving it a star :)
+
+
+
+
+
 Small side project used to bypass the website of ChatGPT by openAI to be able to use it even when the site iself is down. 
 ## How does it work?
 It fetches the text from the input, generates the response by using the API and prints it out.
