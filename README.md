@@ -1,10 +1,10 @@
-# ChatGPT-Website-Bypasser <img src="readme/openai.png" align="right" height="100px"/>
+#  ChatGPT-Website-Bypasser <img src="readme/openai.png" align="right" height="100px"/> <a href="https://www.buymeacoffee.com/codemodeyt"><img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=codemodeyt&button_colour=5F7FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" width="200em"/></a>
 IMPORTANT: this project kind of got useless with OpenAI massively increasing the availability of ChatGPT. However, I'd still be happy if you could support this project by giving it a star :)
 <hr>
-
-
-
 Small side project used to bypass the website of ChatGPT by openAI to be able to use it even when the site iself is down. 
+
+<hr>
+
 ## How does it work?
 It fetches the text from the input, generates the response by using the API and prints it out.
 ## Versions
